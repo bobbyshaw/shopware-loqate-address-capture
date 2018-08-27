@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+
+    <elements>
+        <element required="true" type="boolean">
+            <name>bobbyshawLoqateAddressCaptureEnabled</name>
+            <label lang="en">Loqate Address Capture Enabled?</label>
+            <description lang="en">Should Loqate address capture be enabled on address forms in the checkout?</description>
+        </element>
+        <element required="true" type="text">
+            <name>bobbyshawLoqateAPIKey</name>
+            <label lang="en">Loqate API Key</label>
+            <value></value>
+            <description lang="en">Log in to loqate.com and create a new API key, e.g. AA11-AA11-AA11-AA11.</description>
+        </element>
+    </elements>
+
+</config>

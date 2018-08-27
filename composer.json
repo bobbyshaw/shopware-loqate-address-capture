@@ -1,0 +1,19 @@
+
+{
+  "name": "bobbyshaw/loqate-address-capture",
+  "type": "shopware-plugin",
+  "description": "Plugin which enables Loqate Address Capture (previously PCA Predict Capture+) at checkout.",
+  "license": "MIT",
+  "extra": {
+    "installer-name": "BobbyshawLoqateAddressCapture"
+  },
+  "require-dev": {
+    "shopware/plugin-dev-tools": "master-dev"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/shopwareLabs/plugin-dev-tools"
+    }
+  ]
+}
